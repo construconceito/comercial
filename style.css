@@ -262,29 +262,24 @@ h1 {
   letter-spacing: 1px;
 }
 
+/* ------------------ CELULAR ------------------ */
+@media only screen and (max-width: 700px) {
 
-/*
-DISPONÍVEL:
+  .conceito-cabeca {
+    display: none;
+  }
 
-background: #00aa3e;
-background: linear-gradient(73deg, #D4FF00 0%, #00AA3E 35%, #00aa3ebd 100%);
+  h1 {
+    margin: 180px 0 40px 0;
+  }
 
-RESERVADO:
+  .I, .II, .III, .IV, .V, 
+  .segI, .segII, .segIII, .segIV, .segV, 
+  .terI, .terII, .terIII, .terIV, .terV, 
+  .quaI, .quaII, .quaIII, .quaIV, .quaV {
+    width: 70vw;
+}
+.primeiro, .segundo, .terceiro, .quarto {
+  flex-direction: column-reverse;
+}
 
-background: rgb(255, 38, 0);
-background: linear-gradient(73deg, rgb(255, 17, 0) 0%, rgb(255, 60, 0) 35%, rgba(255, 124, 106, 0.822) 100%);
-
-VENDIDO:
-
-background: #101546;
-background: #3b7c95 0%, #101546 35%, #153636bd 100%);
-
-
-
-
-
-
-
-
-
-*/
