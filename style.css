@@ -224,7 +224,6 @@ h1 {
     border-radius:  80px 0 80px 0;
 
     background: #00aa3e;
-    background: linear-gradient(73deg, #D4FF00 0%, #00AA3E 35%, #00aa3ebd 100%);
 
     padding: 20px;
     margin: 5px;
@@ -263,7 +262,6 @@ h1 {
 }
 .segIII {
 background: #101546;
-background: #3b7c95 0%, #101546 35%, #153636bd 100%);
 }
 /* ------------------ CELULAR ------------------ */
 @media only screen and (max-width: 700px) {
