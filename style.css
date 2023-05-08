@@ -19,6 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
 @keyframes colors {
   0% {
     background-position: 0% 50%;
@@ -126,8 +127,8 @@ header {
 
 /*------------MAIN-------------*/
 main {
-    background-image: url('img/2.jpg');
-    background-color: #cccccc; /* Used if the image is unavailable */
+    background-image: url('img/bg.webp');
+    background-color: #1f1f1f; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -145,9 +146,7 @@ main {
 h1 {
     font-family: 'Montserrat-Bold';
     font-size: 4rem;
-    background: -webkit-linear-gradient(#3b7c95, #101546);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
     margin: 74px 0 40px 0;
   }
 
@@ -225,6 +224,7 @@ h1 {
 
     background: #00aa3e;
 
+
     padding: 20px;
     margin: 5px;
   
@@ -260,8 +260,20 @@ h1 {
   font-size: 0.6rem;
   letter-spacing: 1px;
 }
-.segIII {
-background: #101546;
+
+.I, .IV, .segI, .segIII, .segIV, .terII, .terIII, .quaII, .quaIII, .quaV {
+  background: rgb(255, 38, 0);
+}
+
+.tipologia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa {
+  width: 70vw;
 }
 /* ------------------ CELULAR ------------------ */
 @media only screen and (max-width: 700px) {
