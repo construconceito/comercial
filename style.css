@@ -261,10 +261,12 @@ h1 {
   letter-spacing: 1px;
 }
 
-.I, .IV, .segI, .segIII, .segIV, .terII, .terIII, .quaII, .quaIII, .quaV {
-  background: rgb(255, 38, 0);
+.I, .IV, .segI, .segIII, .terII, .terIII, .quaII, .quaIII, .quaV {
+	background: rgb(255, 38, 0);
 }
-
+.segIV {
+	background: #101546;
+}
 .tipologia {
   display: flex;
   flex-direction: column;
