@@ -261,7 +261,7 @@ h1 {
   letter-spacing: 1px;
 }
 
-.I, .IV, .segI, .segIII, .terII, .terIII, .quaII, .quaIII, .quaV {
+.I, .IV, .segI, .segIII, .terI, .terII, .terIII, .quaII, .quaIII, .quaV {
 	background: rgb(255, 38, 0);
 }
 .segIV {
