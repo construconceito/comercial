@@ -262,7 +262,7 @@ h1 {
 }
 
 /* reservado  */
-.I, .segI, .terI, .terII, .quaIII, {
+.I, .segI, .terI, .terII, .quaIII {
 	background: rgb(255, 38, 0);
 }
 
