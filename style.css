@@ -1,0 +1,444 @@
+        @font-face {
+            font-family: "Karma";
+            src: 
+            url(assets/fonts/Karma-SemiBold.ttf),
+            url(assets/fonts/Karma-Light.ttf),
+            url(assets/fonts/Karma-Medium.ttf),
+            url(assets/fonts/Karma-Regular.ttf)
+            url(assets/fonts/Karma-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: "Kanit-Regular";
+            src: 
+            url(assets/fonts/Kanit/Kanit-Light.ttf)
+        }
+
+        @font-face {
+            font-family: "Kanit-Bold";
+            src:     
+            url(assets/fonts/Kanit/Kanit-Medium.ttf),
+        }
+
+        @font-face {
+            font-family: "Kanit-ExtraBold";
+            src: 
+            url(assets/fonts/Kanit/Kanit-Black.ttf)
+        }
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            text-decoration: none;
+        }
+
+
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+            font-family: 'Kanit-Regular', sans-serif;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .btn {
+
+            font-size: 1.1rem;
+            font-weight: 700;
+
+            font-family: 'Kanit-Regular';
+
+            background-color: #a8652b;
+            color:#ffffff;
+
+            border: none;
+            border-radius: 100px;
+            padding: 15px 100px;
+
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: #58381A;
+            background-color: #EFA35D;
+
+            transition: 300ms;
+        }
+        /*------------------PLAY--------------------*/
+
+        header {
+            background: #D9D9D9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            padding: 15px;
+
+        }
+
+        .logo-conceito {
+            width: 200px;
+        }
+        .banner-p {
+            background-image: url('assets/img/bg1.png');
+            background-color: #264717;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            max-width: 300px;
+
+            background-color: #9B581A;
+
+            padding: 40px;
+
+            justify-content: space-evenly;
+
+            box-shadow: #0000003b 10px 10px 20px;
+        }
+
+        form .btn {
+            background-color: #e39855;
+            color: #58381A;
+        }
+
+        form .btn:hover {
+            background-color: #ffc592;
+            color: #58381A;
+        }
+
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        input {
+            background-color: #00000009;
+            box-shadow: 0 0 0 0;
+            outline: 0;
+            margin-bottom: 10px;
+            padding: 10px;
+            color: #e4c1a4;
+
+
+
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 3px;
+            border-left-width: 0px;
+            border-top-style: none;
+            border-right-style: none;
+            border-bottom-style: solid;
+            border-left-style: none;
+            border-top-color: initial;
+            border-right-color: initial;
+            border-bottom-color: initial;
+            border-left-color: initial;
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+        }
+
+        input::placeholder {
+            color: #DC995D;
+        }
+
+        .banner-p .btn {
+            margin-top: 45px;
+        }
+
+        .logo-mana {
+            width: 20vw;
+        }
+
+
+        .bar {
+            background: rgb(81,87,51);
+            background: linear-gradient(235deg, rgba(81,87,51,1) 0%, rgba(37,39,26,1) 100%);
+
+            height: 130px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .titleContent {
+            font-size: 60px;
+        }
+
+        .spanContent {
+            margin-top: 30px
+        }
+
+        .bar .text {
+            max-width: 40vw;
+            text-align: center;
+            color: #D9D9D9;
+            font-family: 'Karma';
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .formulario .text h1 {
+            font-family: 'Karma';
+            font-size: 2rem;
+            font-weight: 800;
+            color: azure;
+            margin-bottom: 15px;
+        }
+        .formulario .text h2 {
+            font-family: 'Karma';
+            font-size: 0.8rem;
+            font-weight: Light;
+            color: rgb(238, 189, 156);
+        }
+
+        /*--------- SLIDE ----------*/
+
+        .slide-terras {
+            margin-bottom: 20px;
+        }
+
+
+        /*--------- SLIDE ----------*/
+
+        .vant {
+            background-image: url('assets/img/bg2.png');
+            background-color: #264717;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            position: relative;
+
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            padding: 60px;
+        }
+        .vant-img {
+            width: 30vw;
+        }
+
+        .vant .btn {
+            margin-top: 30px;
+            position: absolute;
+            bottom: -20px;
+        }
+
+        .localiza {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            background-image: url('assets/img/bg3.png');
+            background-color: #264717;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+        .cta-fim {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+
+            background-color: #D9D9D9;
+        }
+        /*------------------PLAY--------------------*/
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            height: 200px;
+
+            background-color: #262626;
+
+            font-family: "Kanit-Regular", sans-serif;
+            color: #AFAFAF;
+            font-size: 0.8rem;
+        }
+
+        .logo-footer {
+            width: 250px;
+        }
+
+        .sociais {
+            margin: 15px;
+            display: flex;
+            flex-direction: row;
+        }
+        .sociais img { 
+            width: 25px;
+        }
+
+        .sociais img:not(:last-child) {
+            margin-right: 10px;
+        }
+        /* Adicione estilos CSS para o slide de banner aqui */
+        .banner-slide {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .banner-slide img {
+            width: 100%;
+            height: auto;
+            display: none; /* Oculta os slides por padrão */
+            animation: fadeInOut 1s ease-in-out; /* Adiciona a animação de fade */
+        }
+        .banner-slide img.active {
+            display: block; /* Exibe o slide ativo */
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+
+        /* Define a animação de fade */
+        @keyframes fadeInOut {
+            10% {
+                opacity: 0;
+            }
+        }
+
+        .slide-navigation {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            background-color: #414141;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .active-dot {
+            background-color: #ffffff;
+        }
+
+        .textContent {
+            flex: 1; /* Ocupa todo o espaço disponível */
+            margin-left: 10%;
+            color: #fff;
+        }
+
+        .slide-terras {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
+            margin-top: 20px; /* Ajuste conforme necessário */
+        }
+
+        .slide-terras .slide-container {
+            display: flex;
+        }
+
+        .slide-terras .slide-container img {
+            width: 750px;
+            height: auto;
+            display: none; /* Oculta os slides por padrão */
+        }
+
+        .slide-terras .slide-container img:first-child {
+            display: block; /* Exibe o primeiro slide */
+        }
+
+        .slide-terras .prev,
+        .slide-terras .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .slide-terras .prev {
+            left: 10px;
+        }
+
+        .slide-terras .next {
+            right: 10px;
+        }
+
+
+
